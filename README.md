@@ -20,6 +20,16 @@ To run this api server, docker need to be installed first:
   #### Windows
       to install docker on Windows visit docker link below
       https://docs.docker.com/desktop/install/windows-install/
+      
+## How to run:
+to run this docker required to be installed
+
+     docker compose --build
+     docker compose up
+     
+## how to test endpoints
+      docker exec -it [docker-go-id] bash
+      go test ./...
 
 ## REST API
 ### Get List of Cake
